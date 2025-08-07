@@ -1,0 +1,18 @@
+{% load django_vite %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Starship Combat Tracker</title>
+    {% vite_hmr_client %}
+    {% vite_asset 'static/js/main.js' %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="bg-slate-800 text-emerald-400">
+    <div class="m-12">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>
