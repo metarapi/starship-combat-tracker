@@ -35,7 +35,7 @@ To run the project in development mode, you need to start both the frontend (Vit
     ```bash
     python manage.py runserver
     ```
-    (Run this in `C:\Coding\starship-combat-tracker`)
+    (Run this in `C:\Coding\starship-combat-tracker\starship_combat_tracker`)
 
     This will start the Django development server, usually at [http://localhost:8000](http://localhost:8000).
 
