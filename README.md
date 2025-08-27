@@ -39,4 +39,4 @@ To run the project in development mode, you need to start both the frontend (Vit
 
     This will start the Django development server, usually at [http://localhost:8000](http://localhost:8000).
 
-Make sure both servers are running for
+Make sure both servers are running for test
